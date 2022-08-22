@@ -1,0 +1,335 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag":"SAP application",
+      "patterns":["What is SAP","What does SAP mean","What does SAP stand for"],
+      "responses":["SAP application is referring to system applications and products in data processing"]
+    },
+    {
+      "tag":"LTV",
+      "patterns":["What is LTV","What does LTV mean","What does LTV stand for"],
+      "responses":["LTV means loan-to-value ratio"]
+    },
+    {
+      "tag":"GDS",
+      "patterns":["What is GDS","What does GDS mean","What does GDS stand for"],
+      "responses":["GDS means gross debt service ratio"]
+    },
+    {
+      "tag":"TDS",
+      "patterns":["What is TDS","What does TDS mean","What does TDS stand for"],
+      "responses":["TDS means total debt service ratio"]
+    },
+    {
+      "tag":"ServiceNow",
+      "patterns":["What is ServiceNow?","What is a Service Now request?","Service Now Request"],
+      "responses":["Found on /intranet it allows you to make service request, gain access to application"]
+    },
+    {
+      "tag":"Status 20",
+      "patterns":[
+        "What does status 20 mean?",
+        "Status 20",
+        "What is status 20?"
+      ],
+      "responses":[
+        "Status 20 (loan) means a new loan application has been created"
+      ]
+    },
+    {
+      "tag":"Status 29",
+      "patterns":[
+        "What does status 29 mean?",
+        "Status 29",
+        "What is status 29?"
+      ],
+      "responses":[
+        "Status 29 (loan) means a new loan application has been cancelled"
+      ]
+    },
+    {
+      "tag":"Status 30",
+      "patterns":[
+        "What does status 30 mean?",
+        "Status 30",
+        "What is status 30?"
+      ],
+      "responses":[
+        "Status 30 (loan) means a new loan contract offer has been created"
+      ]
+    },
+    {
+      "tag":"Status 39",
+      "patterns":[
+        "What does status 39 mean?",
+        "Status 39",
+        "What is status 39?"
+      ],
+      "responses":[
+        "Status 39 (loan) means a new loan contract offer has been cancelled"
+      ]
+    },
+    {
+      "tag":"Status 40",
+      "patterns":[
+        "What does status 40 mean?",
+        "Status 40",
+        "What is status 40?"
+      ],
+      "responses":[
+        "Status 40 (loan) means a new loan contract has been created"
+      ]
+    },
+    {
+      "tag":"Status 49",
+      "patterns":[
+        "What does status 49 mean?",
+        "Status 49",
+        "What is status 49?"
+      ],
+      "responses":[
+        "Status 49 (loan) means a new loan contract has been cancelled"
+      ]
+    },
+    {
+      "tag":"Status 50",
+      "patterns":[
+        "What does status 50 mean?",
+        "Status 50",
+        "What is status 50?"
+      ],
+      "responses":[
+        "Status 50 (loan) means a new loan is under the underwriter review"
+      ]
+    },
+    {
+      "tag":"Status 54",
+      "patterns":[
+        "What does status 54 mean?",
+        "Status 54",
+        "What is status 54?"
+      ],
+      "responses":[
+        "Status 54 (loan) means a new loan is under the credit review"
+      ]
+    },
+    {
+      "tag":"Status 55",
+      "patterns":[
+        "What does status 55 mean?",
+        "Status 55",
+        "What is status 55?"
+      ],
+      "responses":[
+        "Status 55 (loan) means the credit review has completed"
+      ]
+    },
+    {
+      "tag":"Status 59",
+      "patterns":[
+        "What does status 59 mean?",
+        "Status 59",
+        "What is status 59?"
+      ],
+      "responses":[
+        "Status 59 (loan) means loan contract has been cancelled"
+      ]
+    },
+    {
+      "tag":"Status 60",
+      "patterns":[
+        "What does status 60 mean?",
+        "Status 60",
+        "What is status 60?"
+      ],
+      "responses":[
+        "Status 60 (loan) means loan requisition has been received"
+      ]
+    },
+    {
+      "tag":"Status 70",
+      "patterns":[
+        "What does status 70 mean?",
+        "Status 70",
+        "What is status 70?"
+      ],
+      "responses":[
+        "Status 70 (loan) means the conventional loan documents are incomplete"
+      ]
+    },
+    {
+      "tag":"Status 71",
+      "patterns":[
+        "What does status 71 mean?",
+        "Status 71",
+        "What is status 71?"
+      ],
+      "responses":[
+        "Status 71 (loan) means the conventional loan documents are complete"
+      ]
+    },
+    {
+      "tag":"Status 75",
+      "patterns":[
+        "What does status 75 mean?",
+        "Status 75",
+        "What is status 7?"
+      ],
+      "responses":[
+        "Status 75 (loan) means loan is under legal action"
+      ]
+    },
+    {
+      "tag":"Status 76",
+      "patterns":[
+        "What does status 76 mean?",
+        "Status 76",
+        "What is status 76?"
+      ],
+      "responses":[
+        "Status 76 (loan) means loan has realestate in possession"
+      ]
+    },
+    {
+      "tag":"Status 80",
+      "patterns":[
+        "What does status 80 mean?",
+        "Status 80",
+        "What is status 80?"
+      ],
+      "responses":[
+        "Status 80 (loan) means the securitized loan documents are incomplete"
+      ]
+    },
+    {
+      "tag":"Status 81",
+      "patterns":[
+        "What does status 81 mean?",
+        "Status 81",
+        "What is status 81?"
+      ],
+      "responses":[
+        "Status 81 (loan) means the securitized loan documents are complete"
+      ]
+    },
+    {
+      "tag":"Status 85",
+      "patterns":[
+        "What does status 85 mean?",
+        "Status 85",
+        "What is status 85?"
+      ],
+      "responses":[
+        "Status 85 (loan) means the securitized loan is under legal action"
+      ]
+    },
+    {
+      "tag":"Status 86",
+      "patterns":[
+        "What does status 86 mean?",
+        "Status 86",
+        "What is status 86?"
+      ],
+      "responses":[
+        "Status 86 (loan) means the securitized loan is under possession"
+      ]
+    },
+    {
+      "tag":"Status 90",
+      "patterns":[
+        "What does status 90 mean?",
+        "Status 90",
+        "What is status 90?"
+      ],
+      "responses":[
+        "Status 90 (loan) means the discharged loan documents are incomplete"
+      ]
+    },
+    {
+      "tag":"Status 91",
+      "patterns":[
+        "What does status 91 mean?",
+        "Status 91",
+        "What is status 91?"
+      ],
+      "responses":[
+        "Status 91 (loan) means the discharged loan documents are complete"
+      ]
+    },
+    {
+      "tag":"Status 92",
+      "patterns":[
+        "What does status 92 mean?",
+        "Status 92",
+        "What is status 92?"
+      ],
+      "responses":[
+        "Status 92 (loan) means the loan is funded"
+      ]
+    },
+    {
+      "tag":"Status 93",
+      "patterns":[
+        "What does status 93 mean?",
+        "Status 93",
+        "What is status 93?"
+      ],
+      "responses":[
+        "Status 93 (loan) means the loan is sold with external servicing"
+      ]
+    },
+    {
+      "tag":"Status 98",
+      "patterns":[
+        "What does status 98 mean?",
+        "Status 98",
+        "What is status 98?"
+      ],
+      "responses":[
+        "Status 98 (loan) means the loan is planned completed"
+      ]
+    },
+    {
+      "tag":"Status 99",
+      "patterns":[
+        "What does status 99 mean?",
+        "Status 99",
+        "What is status 99?"
+      ],
+      "responses":[
+        "Status 99 (loan) means the loan is actual completed"
+      ]
+    }
+  ]
+}
